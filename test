@@ -1,0 +1,6 @@
+#!/bin/bash
+set -e
+make
+echo "start kilo now..."
+./kilo
+echo "program exit with code $?"
